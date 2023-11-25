@@ -1858,10 +1858,52 @@ section {
   width: 50%;
   }
   
-  .head{
-    color:black;
-    font-weight: 600;
-    font-size: 45px;
-    letter-spacing: 1px;
+.head{
+  color:black;
+  font-weight: 600;
+  font-size: 45px;
+  letter-spacing: 1px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
 
-  }
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+thead {
+  font-size:20px;
+  background-color: #209dd8;
+}
+
+tr:nth-child(even) {
+  background-color: #37517e;
+}
+.blue-text {
+  color: #37517e;
+}
+.white-text{
+  color: #f9f9f9;
+}
