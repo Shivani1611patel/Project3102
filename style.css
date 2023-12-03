@@ -1864,9 +1864,6 @@ section {
   font-size: 45px;
   letter-spacing: 1px;
 }
-
-/* paas */
-
 table {
   width: 100%;
   border-collapse: collapse;
@@ -1909,4 +1906,15 @@ tr:nth-child(even) {
 }
 .white-text{
   color: #f9f9f9;
+}
+.tick {
+  color: rgb(58, 199, 58);
+}
+
+.cross {
+  color: rgb(225, 225, 225);
+}
+th, td {
+  text-align: center;
+  padding: 8px;
 }
